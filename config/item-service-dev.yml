@@ -15,10 +15,10 @@ spring:
   profiles: item1
   
 server:
-  port: 8001
+  port: 9001
 ---
 spring:
   profiles: item2
 
 server:
-  port: 8002      
+  port: 9002      

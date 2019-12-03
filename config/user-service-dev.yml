@@ -7,7 +7,7 @@ spring:
     name: user-service
     
 #server:
-#  port: 8101
+#  port: 9101
  
 eureka:
   client:
@@ -22,10 +22,10 @@ spring:
   profiles: user1
   
 server:
-  port: 8101
+  port: 9101
 ---
 spring:
   profiles: user2
 
 server:
-  port: 8102      
+  port: 9102      

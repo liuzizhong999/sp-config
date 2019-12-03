@@ -3,7 +3,7 @@ spring:
     name: order-service
     
 #server:
-#  port: 8201
+#  port: 9201
 
 eureka:
   client:
@@ -18,7 +18,7 @@ spring:
   profiles: order1
   
 server:
-  port: 8201
+  port: 9201
   
   
 ---
@@ -26,4 +26,4 @@ spring:
   profiles: order2
 
 server:
-  port: 8202            
+  port: 9202            
